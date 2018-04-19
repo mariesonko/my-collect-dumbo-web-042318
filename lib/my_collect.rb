@@ -1,5 +1,4 @@
 def my_collect(collection)
-  if block_given?
     n=0
     my_collection =[]
     while n < collection.length
@@ -8,4 +7,4 @@ def my_collect(collection)
     end
     my_collection
   end
-end
+  
